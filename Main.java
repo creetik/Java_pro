@@ -21,42 +21,52 @@ Employee employee =new Employee("Alex alex alex","Tester","@gmail.com",93484833,
     }
 
     public void setFullName(String fullName) {
+
         this.FullName = fullName;
     }
 
-    public String getFullName() {
+    public String getFullName()
+    {
         return FullName;
     }
 
-    public void setPosition(String position) {
+    public void setPosition(String position)
+    {
         this.Position = position;
     }
 
-    public String getPosition() {
+    public String getPosition()
+    {
         return Position;
     }
 
     public void setEmail(String email) {
+
         this.Email = email;
     }
 
-    public String getEmail() {
+    public String getEmail()
+    {
         return Email;
     }
 
-    public void setTelNumber(int telNumber) {
+    public void setTelNumber(int telNumber)
+    {
         this.TelNumber = telNumber;
     }
 
-    public int getTelNumber() {
+    public int getTelNumber()
+    {
         return TelNumber;
     }
 
-    public void setAge(int age) {
+    public void setAge(int age)
+    {
         this.Age = age;
     }
 
-    public int getAge() {
+    public int getAge()
+    {
         return Age;
     }
 }
