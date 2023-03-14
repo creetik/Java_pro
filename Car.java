@@ -1,16 +1,19 @@
 public class Car {
-    public void start(){
-startElectricity();
-startCommand();
-startFuelSystem();
+    public void start() {
+        startElectricity();
+        startCommand();
+        startFuelSystem();
     }
-private void startElectricity(){
 
-}
-private void startCommand(){
+    private void startElectricity() {
 
-}
-private void startFuelSystem(){
+    }
 
-}
+    private void startCommand() {
+
+    }
+
+    private void startFuelSystem() {
+
+    }
 }
